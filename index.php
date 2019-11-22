@@ -2,10 +2,10 @@
 
 require_once(__DIR__ . "/vendor/autoload.php");
 
-use \Vehicles\Car;
-echo("foo");
+use \Vehicles\ExoticCar;
+
  // let's build a car
- $myCar = new Car();
+ $myCar = new ExoticCar();
  
  $myCar->setMake("Dodge");
  $myCar->setModel("Dart");
