@@ -40,5 +40,9 @@ class ExoticCar extends Car {
  	public function getHorsepower() {
  		return $this->horsepower;
  	}
+ 	
+ 	public function calculatePowerToWeightRatio() {
+ 	    return $this->horsepower / $this->weight;
+ 	}
 
 }
