@@ -1,7 +1,9 @@
-<?php 
+<?php
 
-require_once("Car.php");
+require_once(__DIR__ . "/vendor/autoload.php");
 
+use \Vehicles\Car;
+echo("foo");
  // let's build a car
  $myCar = new Car();
  
