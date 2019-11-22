@@ -11,5 +11,8 @@
         "psr-4": {
             "Vehicles\\": "src/Vehicles"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
     }
 }
