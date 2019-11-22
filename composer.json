@@ -1,0 +1,10 @@
+{
+    "name": "root/app",
+    "authors": [
+        {
+            "name": "Matthew Obert",
+            "email": "matt@hotwebmatter.com"
+        }
+    ],
+    "require": {}
+}
