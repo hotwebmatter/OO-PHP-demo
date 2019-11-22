@@ -17,7 +17,7 @@ class Car {
  	private $color;
  	
  	public function __construct() {
- 		echo("Constructor called<br />");
+ 		echo("Car constructor called<br />");
  	}
  	
  	public function setMake(String $n) {

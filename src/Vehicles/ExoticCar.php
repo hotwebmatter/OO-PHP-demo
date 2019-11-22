@@ -13,6 +13,7 @@ class ExoticCar extends Car {
  	private $horsepower;
  	
  	public function __construct() {
+ 	    parent::__construct();
  		echo("ExoticCar constructor called<br />");
  	}
  	
