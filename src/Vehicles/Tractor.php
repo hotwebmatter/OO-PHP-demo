@@ -1,13 +1,15 @@
 <?php
 
+namespace Vehicles;
+
 class Tractor implements VehicleInterface {
     
  	private $make;
  	private $model;
  	private $price;
 
- 	public function setMake(String $n) {
- 		$this->make = $n;
+ 	public function setMake(String $m) {
+ 		$this->make = $m;
  	}
 
  	public function getMake() {

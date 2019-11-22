@@ -4,13 +4,12 @@ namespace Vehicles;
 
 interface VehicleInterface {
     
-    public function getPrice();
-    public function setPrice();
-    
     public function getMake();
-    public function setMake();
-    
     public function getModel();
-    public function setModel();
+    public function getPrice();
+
+    public function setMake(String $n);
+    public function setModel(String $n);
+    public function setPrice(Float $n);
     
 }
